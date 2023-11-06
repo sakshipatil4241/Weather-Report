@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <title>Weather Report</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://kit.fontawesome.com/9e416d797c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   
+  <header>
+    <div class="header">
+      <a href="#" class="logo"><i class="fa-solid fa-cloud fa-flip"></i></i>WEATHER REPORT</a>
+    </div>
+    <div class="time">
+     <h3 id="current-time">12:00:00</h3>
+    </div>
+    <div class="date">
+     <h5 id="current-date">01/01/2020</h5>
+    </div>
+    
+  </header>
+  <home>
+    <nav class="search-box-container">
+      <form>
+        <input type="text" id="search-box" placeholder="Search for location" class="search_area">
+        <label for="search-box" class="fas fa-search"></label>
+       
+      </form>
+   </nav>
+   
+    <div class="container">
+
+      <div class="weather_container">
+        <div class="temp">
+           <h1 class ="temperature">18°C</h1>
+       </div>
+
+        <div class="time_location">
+            <h1 class="city">Mumbai</h1>
+            <p class="max">Max Temp:23</p>
+            <p class="min">Min temp:15</p>
+        </div>
+          
+        <div class="condition">
+          <img src="assets/images/mist.png" class="weather-icon">
+          <p class="desc">Mist</p>
+             
+        </div>
+        <div class="details">
+          <div class="col">
+              <img src="assets/images/humidity.png" >
+              <div>
+               <p class="humidity">50%</p>
+               <p>Humidity</p>
+              </div>
+   
+          </div>
+          <div class="col">
+           <img src="assets/images/wind.png">
+           <div>
+            <p class="wind">15 km/h</p>
+            <p>Wind speed</p>
+           </div>
+   
+        </div>
+      </div>
+    </div>
+    
+    </div>
+  </home>
+
+
+
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
